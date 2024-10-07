@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Nexus - Subscription</title>
+</head>
+<body>
+
+    <header>
+        <h1 style="color:rgb(237,234,234); background-color: rgb(101, 105, 109)"><img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;&nbsp;&nbsp;
+            <a style="color:rgb(237,234,234)" href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></td>
+            <a style="color:rgb(237,234,234)" href="factions.html">&nbsp;&nbsp;Factions&nbsp;&nbsp;</a></td>
+            <a style="color:rgb(237,234,234)" href="characters.html">&nbsp;&nbsp;Characters&nbsp;&nbsp;</a></td>
+            <a style="color:rgb(237,234,234)" href="planets.html">&nbsp;&nbsp;Planets&nbsp;&nbsp;</a></td>
+            <a style="color:rgb(237,234,234)" href="about.html">&nbsp;&nbsp;About&nbsp;&nbsp;</a></td>
+            <a style="background-color: rgb(180, 180, 180); color:black" href="subscription.html">&nbsp;&nbsp;Join Now&nbsp;&nbsp;</a></td>
+</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nexus Community Subscription</h2>
+            <p>For just $8.99 a month, you can unlock exclusive access to the Star Wars Nexus forums—a place where passionate Star Wars fans come together to discuss everything from epic battles and favorite characters to the latest theories and lore deep-dives. Join today and be part of the conversation!</p>
+
+            <h2>Join Now!</h2>
+            <form action="subscribe.php" method="post">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="plan">Subscription Plan:</label></td>
+                        <td>
+                            <select id="plan" name="plan">
+                                <option value="monthly">Monthly - $8.99</option>
+                                <option value="yearly">Yearly - $99.99</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit">Join Now</button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Star Wars Nexus</p>
+    </footer>
+
+</body>
+</html>
