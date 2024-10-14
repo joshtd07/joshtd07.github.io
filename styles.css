@@ -1,6 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Bebas Neue', sans-serif; /* Custom font for a Sti-Fi look */
+    font-size: 40px;
     background-color: #000000; /* Black background for a space feel */
     color: #f0f0f0; /* Light gray text for contrast */
     margin: 0;
