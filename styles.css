@@ -9,12 +9,14 @@ body {
 
 /* Header Styles */
 h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
     color: #FFD700; /* Gold color for titles*/
     text-align: center;
 }
 
 /* Links */
 a {
+    font-family: 'Bebas Neue', sans-serif;
     color: #1E90FF; /* Jedi Blue for links*/
     text-decoration: none;
 }
@@ -25,6 +27,7 @@ a:hover {
 
 /* Button Styles */
 button {
+    font-family: 'Bebas Neue', sans-serif;
     background-color: #A52A2A; /* Brown color*/
     color: #FFFFFF; /* White text for contrast */
     border: none;
@@ -37,14 +40,9 @@ button:hover {
     background-color: #B22222; /* Red on hover */
 }
 
-/* Specific Class Styles */
-.logo {
-    font-size: 36px; /* Large font size for logo */
-    color: #FF6347; /* Red Sith-esque color*/
-}
-
 /* Footer Styles */
 footer {
+    font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     padding: 20px;
     background-color: #333333; /* Dark gray footer */
