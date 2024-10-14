@@ -11,6 +11,7 @@ body {
 /* Header Styles */
 h1, h2, h3 {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
     color: #FFD700; /* Gold color for titles*/
     text-align: center;
 }
@@ -18,6 +19,7 @@ h1, h2, h3 {
 /* Links */
 a {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
     color: #1E90FF; /* Jedi Blue for links*/
     text-decoration: none;
 }
@@ -29,6 +31,7 @@ a:hover {
 /* Button Styles */
 button {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
     background-color: #A52A2A; /* Brown color*/
     color: #FFFFFF; /* White text for contrast */
     border: none;
@@ -44,6 +47,7 @@ button:hover {
 /* Footer Styles */
 footer {
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
     text-align: center;
     padding: 20px;
     background-color: #333333; /* Dark gray footer */
