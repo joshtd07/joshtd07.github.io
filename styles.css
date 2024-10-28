@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Bebas Neue', sans-serif; /* Custom font for a Sti-Fi look */
+    font-size: 40px;
+    background-color: #000000; /* Black background for a space feel */
+    color: #f0f0f0; /* Light gray text for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: #FFD700; /* Gold color for titles*/
+    text-align: center;
+}
+
+/* Links */
+a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: #1E90FF; /* Jedi Blue for links*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF4500; /* Orange Red for hover effect */
+}
+
+/* Button Styles */
+button {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    background-color: #A52A2A; /* Brown color*/
+    color: #FFFFFF; /* White text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B22222; /* Red on hover */
+}
+
+/* Footer Styles */
+footer {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #333333; /* Dark gray footer */
+    color: #FFFFFF; /* White text */
+}
