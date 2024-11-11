@@ -1,55 +1,76 @@
 /* General Styles */
 body {
-    font-family: 'Bebas Neue', sans-serif; /* Custom font for a Sti-Fi look */
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
-    background-color: #000000; /* Black background for a space feel */
-    color: #f0f0f0; /* Light gray text for contrast */
+    background-color: #000000;
+    color: #f0f0f0;
     margin: 0;
     padding: 20px;
 }
 
 /* Header Styles */
-h1, h2, h3 {
+h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
-    color: #FFD700; /* Gold color for titles*/
+    color: #FFD700; 
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #65696D; 
+}
+
+h1 span {
+    color: rgb(237,234,234); 
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(237,234,234);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #FF4500;
+}
+
+/* Main section styles */
+main {
+    margin-top: 50px;
     text-align: center;
 }
 
-/* Links */
-a {
+/* Quote Styles */
+#quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#quote {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
-    color: #1E90FF; /* Jedi Blue for links*/
-    text-decoration: none;
-}
-
-a:hover {
-    color: #FF4500; /* Orange Red for hover effect */
-}
-
-/* Button Styles */
-button {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
-    background-color: #A52A2A; /* Brown color*/
-    color: #FFFFFF; /* White text for contrast */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px; /* Slightly rounded corners */
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #B22222; /* Red on hover */
+    font-size: 60px;
+    color: #FFD700;
+    text-align: center;
 }
 
 /* Footer Styles */
 footer {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding: 20px;
-    background-color: #333333; /* Dark gray footer */
-    color: #FFFFFF; /* White text */
+    background-color: #333333;
+    color: #FFFFFF;
 }
