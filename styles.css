@@ -55,7 +55,7 @@ footer {
 }
 
 /* Quote Styles */
-#quote-container {
+p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,9 +65,6 @@ footer {
     background-color: #333333;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#quote {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
     color: #FFD700;
