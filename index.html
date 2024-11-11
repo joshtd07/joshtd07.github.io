@@ -22,14 +22,17 @@
 <body>
 
     <header>
-        <h1 style="color:rgb(237,234,234); background-color: rgb(101, 105, 109)">
-            <img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;&nbsp;&nbsp;
-            <a style="color:black; background-color: rgb(180, 180, 180)" href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
-            <a style="color:rgb(237,234,234)" href="factions.html">&nbsp;&nbsp;Factions&nbsp;&nbsp;</a>
-            <a style="color:rgb(237,234,234)" href="characters.html">&nbsp;&nbsp;Characters&nbsp;&nbsp;</a>
-            <a style="color:rgb(237,234,234)" href="planets.html">&nbsp;&nbsp;Planets&nbsp;&nbsp;</a>
-            <a style="color:rgb(237,234,234)" href="about.html">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
-            <a style="color:rgb(237,234,234)" href="subscription.html">&nbsp;&nbsp;Join Now&nbsp;&nbsp;</a>
+        <h1>
+            <img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">
+            <span>Star Wars Nexus</span>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="factions.html">Factions</a>
+                <a href="characters.html">Characters</a>
+                <a href="planets.html">Planets</a>
+                <a href="about.html">About</a>
+                <a href="subscription.html">Join Now</a>
+            </nav>
         </h1>
     </header>
 
@@ -40,7 +43,6 @@
             <div id="quote-container">
                 <p id="quote"></p>
             </div>
-
         </section>
     </main>
 
@@ -82,6 +84,7 @@
             "You can’t stop the change, any more than you can stop the suns from setting. - Shmi Skywalker",
             "I am no Jedi. - Ahsoka Tano"
         ];
+
         function displayRandomQuote() {
             const randomIndex = Math.floor(Math.random() * quotes.length);
             document.getElementById("quote").textContent = quotes[randomIndex];
