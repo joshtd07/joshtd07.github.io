@@ -53,3 +53,23 @@ footer {
     background-color: #333333; /* Dark gray footer */
     color: #FFFFFF; /* White text */
 }
+
+/* Quote Styles */
+#quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#quote {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    color: #FFD700;
+    text-align: center;
+}
