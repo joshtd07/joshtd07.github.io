@@ -11,81 +11,85 @@
     <title>Star Wars Nexus - Home</title>
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DM2WTTKRKG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DM2WTTKRKG');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DM2WTTKRKG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DM2WTTKRKG');
+    </script>
 </head>
 <body>
 
     <header>
-        <h1 style="color:rgb(237,234,234); background-color: rgb(101, 105, 109)"><img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a style="color:black; background-color: rgb(180, 180, 180)" href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></td>
-                    <a style="color:rgb(237,234,234)" href="factions.html">&nbsp;&nbsp;Factions&nbsp;&nbsp;</a></td>
-                    <a style="color:rgb(237,234,234)" href="characters.html">&nbsp;&nbsp;Characters&nbsp;&nbsp;</a></td>
-                    <a style="color:rgb(237,234,234)" href="planets.html">&nbsp;&nbsp;Planets&nbsp;&nbsp;</a></td>
-                    <a style="color:rgb(237,234,234)" href="about.html">&nbsp;&nbsp;About&nbsp;&nbsp;</a></td>
-                    <a style="color:rgb(237,234,234)" href="subscription.html">&nbsp;&nbsp;Join Now&nbsp;&nbsp;</a></td>
+        <h1 style="color:rgb(237,234,234); background-color: rgb(101, 105, 109)">
+            <img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;&nbsp;&nbsp;
+            <a style="color:black; background-color: rgb(180, 180, 180)" href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+            <a style="color:rgb(237,234,234)" href="factions.html">&nbsp;&nbsp;Factions&nbsp;&nbsp;</a>
+            <a style="color:rgb(237,234,234)" href="characters.html">&nbsp;&nbsp;Characters&nbsp;&nbsp;</a>
+            <a style="color:rgb(237,234,234)" href="planets.html">&nbsp;&nbsp;Planets&nbsp;&nbsp;</a>
+            <a style="color:rgb(237,234,234)" href="about.html">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
+            <a style="color:rgb(237,234,234)" href="subscription.html">&nbsp;&nbsp;Join Now&nbsp;&nbsp;</a>
         </h1>
     </header>
 
     <main>
         <section>
             <h2>Welcome to Star Wars Nexus, your hub for all things Star Wars. Explore factions, characters, planets, and much more!</h2>
-            <p id="quote"></p>
+            
+            <div id="quote-container">
+                <p id="quote"></p>
+            </div>
+
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Star Wars Nexus</p>
     </footer>
-<script>
-    // Array of Star Wars quotes
-    const quotes = [
-        "May the Force be with you. - Obi-Wan Kenobi",
-        "I am your father. - Darth Vader",
-        "Do or do not, there is no try. - Yoda",
-        "The Force will be with you, always. - Obi-Wan Kenobi",
-        "I find your lack of faith disturbing. - Darth Vader",
-        "In my experience, there is no such thing as luck. - Obi-Wan Kenobi",
-        "I’ve got a bad feeling about this. - Multiple Characters",
-        "Fear is the path to the dark side. - Yoda",
-        "Help me, Obi-Wan Kenobi. You’re my only hope. - Princess Leia",
-        "The ability to destroy a planet is insignificant next to the power of the Force. - Darth Vader",
-        "I’ll never turn to the dark side. - Luke Skywalker",
-        "Your focus determines your reality. - Qui-Gon Jinn",
-        "It’s a trap! - Admiral Ackbar",
-        "Chewie, we’re home. - Han Solo",
-        "I am one with the Force, and the Force is with me. - Chirrut Îmwe",
-        "I rebel. - Jyn Erso",
-        "That’s no moon. It’s a space station. - Obi-Wan Kenobi",
-        "I’ve seen this raw strength only once before. - Luke Skywalker",
-        "Strike me down, and I will become more powerful than you could possibly imagine. - Obi-Wan Kenobi",
-        "The dark side of the Force is a pathway to many abilities some consider to be unnatural. - Emperor Palpatine",
-        "To die for one’s people is a great sacrifice. To live for one’s people, an even greater sacrifice. - Hera Syndulla",
-        "There’s always a bigger fish. - Qui-Gon Jinn",
-        "I am all the Jedi. - Rey",
-        "I know. - Han Solo",
-        "This is the way. - The Mandalorian",
-        "I don’t like sand. It’s coarse and rough and irritating, and it gets everywhere. - Anakin Skywalker",
-        "The greatest teacher, failure is. - Yoda",
-        "Rebellions are built on hope. - Jyn Erso",
-        "The force will be with you. Always. - Luke Skywalker",
-        "You can’t stop the change, any more than you can stop the suns from setting. - Shmi Skywalker",
-        "I am no Jedi. - Ahsoka Tano"
-    ];
-    function displayRandomQuote() {
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        document.getElementById("quote").textContent = quotes[randomIndex];
-    }
 
-    displayRandomQuote();
-    setInterval(displayRandomQuote, 5000);
-</script>
+    <script>
+        const quotes = [
+            "May the Force be with you. - Obi-Wan Kenobi",
+            "I am your father. - Darth Vader",
+            "Do or do not, there is no try. - Yoda",
+            "The Force will be with you, always. - Obi-Wan Kenobi",
+            "I find your lack of faith disturbing. - Darth Vader",
+            "In my experience, there is no such thing as luck. - Obi-Wan Kenobi",
+            "I’ve got a bad feeling about this. - Multiple Characters",
+            "Fear is the path to the dark side. - Yoda",
+            "Help me, Obi-Wan Kenobi. You’re my only hope. - Princess Leia",
+            "The ability to destroy a planet is insignificant next to the power of the Force. - Darth Vader",
+            "I’ll never turn to the dark side. - Luke Skywalker",
+            "Your focus determines your reality. - Qui-Gon Jinn",
+            "It’s a trap! - Admiral Ackbar",
+            "Chewie, we’re home. - Han Solo",
+            "I am one with the Force, and the Force is with me. - Chirrut Îmwe",
+            "I rebel. - Jyn Erso",
+            "That’s no moon. It’s a space station. - Obi-Wan Kenobi",
+            "I’ve seen this raw strength only once before. - Luke Skywalker",
+            "Strike me down, and I will become more powerful than you could possibly imagine. - Obi-Wan Kenobi",
+            "The dark side of the Force is a pathway to many abilities some consider to be unnatural. - Emperor Palpatine",
+            "To die for one’s people is a great sacrifice. To live for one’s people, an even greater sacrifice. - Hera Syndulla",
+            "There’s always a bigger fish. - Qui-Gon Jinn",
+            "I am all the Jedi. - Rey",
+            "I know. - Han Solo",
+            "This is the way. - The Mandalorian",
+            "I don’t like sand. It’s coarse and rough and irritating, and it gets everywhere. - Anakin Skywalker",
+            "The greatest teacher, failure is. - Yoda",
+            "Rebellions are built on hope. - Jyn Erso",
+            "The force will be with you. Always. - Luke Skywalker",
+            "You can’t stop the change, any more than you can stop the suns from setting. - Shmi Skywalker",
+            "I am no Jedi. - Ahsoka Tano"
+        ];
+        function displayRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById("quote").textContent = quotes[randomIndex];
+        }
+
+        displayRandomQuote();
+        setInterval(displayRandomQuote, 5000);
+    </script>
 
 </body>
 </html>
