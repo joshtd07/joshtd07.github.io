@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="styles.css">
-   <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore planets from the Star Wars universe such as Tatooine, Naboo, Hoth, and Mustafar.">
-    <meta name="keywords" content="Star Wars, planets, Tatooine, Naboo, Hoth, Mustafar">
+    <meta name="description" content="Explore Star Wars planets like Tatooine, Hoth, Endor, and more">
+    <meta name="keywords" content="Star Wars, planets, Tatooine, Hoth, Endor">
     <meta name="author" content="Josh Doyon">
     <title>Star Wars Nexus - Planets</title>
 
-   <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DM2WTTKRKG"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -19,57 +19,77 @@
 
   gtag('config', 'G-DM2WTTKRKG');
 </script>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        td img {
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        td img:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <h1 style="color:rgb(237,234,234); background-color: rgb(101, 105, 109)"><img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;&nbsp;&nbsp;
-            <a style="color:rgb(237,234,234)" href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></td>
-            <a style="color:rgb(237,234,234)" href="factions.html">&nbsp;&nbsp;Factions&nbsp;&nbsp;</a></td>
-            <a style="color:rgb(237,234,234)" href="characters.html">&nbsp;&nbsp;Characters&nbsp;&nbsp;</a></td>
-            <a style="background-color: rgb(180, 180, 180); color:black" href="planets.html">&nbsp;&nbsp;Planets&nbsp;&nbsp;</a></td>
-            <a style="color:rgb(237,234,234)" href="about.html">&nbsp;&nbsp;About&nbsp;&nbsp;</a></td>
-            <a style="color:rgb(237,234,234)" href="subscription.html">&nbsp;&nbsp;Join Now&nbsp;&nbsp;</a></td>
-</h1>
+        <h1><img src="images/NexusLogo.png" alt="Star Wars Nexus Logo" width="100px" height="100px">&nbsp;&nbsp;Star Wars Nexus&nbsp;&nbsp;
+            <a href="index.html">Home</a>
+            <a href="factions.html">Factions</a>
+            <a href="characters.html">Characters</a>
+            <a style="background-color: rgb(180, 180, 180); color:black" href="planets.html">Planets</a>
+            <a href="about.html">About</a>
+            <a href="subscription.html">Join Now</a>
+        </h1>
     </header>
 
     <main>
         <h2>Planets</h2>
-        <table border="2">
+        <table>
             <tr>
-                <td style="white-space:pre;">Tatooine
-                    <img src="images/Tatooine.jpg" alt="Photo of Tatooine" width="150px" height="150px">
+                <td>
+                    <strong>Tatooine</strong>
+                    <img src="images/Tatooine.jpg" alt="Tatooine" width="150px" height="150px">
+                    <p>A desert planet and the home of Anakin and Luke Skywalker. Tatooine is known for its twin suns.</p>
                 </td>
-                <td>A desert planet home to moisture farmers, smugglers, and crime lords. It is also 
-                    the birthplace of Anakin and Luke Skywalker.</td>
+                <td>
+                    <strong>Hoth</strong>
+                    <img src="images/Hoth.jpg" alt="Hoth" width="150px" height="150px">
+                    <p>Hoth is a frozen planet, famous for being the site of the Rebel Alliance’s Echo Base during the Galactic Civil War.</p>
+                </td>
             </tr>
             <tr>
-                <td style="white-space:pre;">Naboo
-                    <img src="images/Naboo.jpg" alt="Photo of Naboo" width="150px" height="150px">
+                <td>
+                    <strong>Endor</strong>
+                    <img src="images/Endor.jpg" alt="Endor" width="150px" height="150px">
+                    <p>Endor is a forested moon and the home of the Ewoks, where the second Death Star was destroyed.</p>
                 </td>
-                <td>A lush, peaceful planet known for its royal monarchy and Gungan inhabitants. It’s
-                     the home of Padmé Amidala and Lord Palpatine, and the site of multiple major events in The Phantom Menace.</td>
-            </tr>
-            <tr>
-                <td style="white-space:pre;">Hoth
-                    <img src="images/Hoth.jpg" alt="Photo of Hoth" width="150px" height="150px">
+                <td>
+                    <strong>Coruscant</strong>
+                    <img src="images/Coruscant.jpg" alt="Coruscant" width="150px" height="150px">
+                    <p>Coruscant is the political hub of the galaxy, home to the Galactic Senate and the Jedi Temple.</p>
                 </td>
-                <td>An icy, desolate world where the Rebel Alliance established Echo Base. It’s famous for
-                     the Battle of Hoth, an iconic clash in The Empire Strikes Back.</td>
-            </tr>
-            <tr>
-                <td style="white-space:pre;">Mustafar
-                    <img src="images/Mustafar.jpg" alt="Photo of Mustafar" width="150px" height="150px">
-                </td>
-                <td>A volcanic planet where Anakin Skywalker, while turning to Darth Vader, battles Obi-Wan Kenobi. It’s here that Anakin is
-                     gravely injured, marking his full turn to the dark side in Revenge of the Sith.</td>
             </tr>
         </table>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Star Wars Nexus</p>
-    </footer>
 
 </body>
 </html>
