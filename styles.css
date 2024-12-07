@@ -9,6 +9,16 @@ body {
 }
 
 /* Header Styles */
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px;
+}
+
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
@@ -97,16 +107,6 @@ table img {
     margin: 10px auto;
     width: 500px;
     height: auto;
-}
-
-header h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
-    margin: 0;
-    padding: 20px;
 }
 
 #logo {
