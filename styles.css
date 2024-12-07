@@ -99,6 +99,16 @@ table img {
     height: auto;
 }
 
+header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+}
+
 #logo {
     display: inline-block;
     height:200px;
