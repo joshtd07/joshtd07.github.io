@@ -92,7 +92,7 @@ td:first-child {
     text-align: center;
 }
 
-img {
+table img {
     display: block;
     margin: 10px auto;
     width: 500px;
