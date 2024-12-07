@@ -104,3 +104,22 @@ table img {
     height:200px;
     width:200px;
 }
+
+form {
+    background-color: #333333;  /* Dark background to match the theme */
+    border-radius: 12px;  /* Rounded corners */
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+}
+
+form h2 {
+    color: #FFD700; /* Gold text color */
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+}
