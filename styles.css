@@ -19,16 +19,6 @@ header h1 {
     padding: 20px;
 }
 
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
-    color: #FFD700; 
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    background-color: #65696D; 
-}
-
 h1 span {
     color: rgb(237,234,234); 
 }
