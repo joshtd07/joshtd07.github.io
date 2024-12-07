@@ -123,6 +123,7 @@ table img {
 
 #subscription-form table {
     width: 100%;
+    justify-content: center;
     margin-top: 20px;
     border-spacing: 0 15px;
     border-collapse: collapse;
@@ -142,6 +143,7 @@ table img {
     border: 2px solid #FFD700;
     background-color: #1a1a1a;
     color: #FFD700;
+    justify-content: center;
 }
 
 #subscription-form button {
