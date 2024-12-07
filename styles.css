@@ -45,6 +45,10 @@ main {
     text-align: center;
 }
 
+p {
+    max-width:1000px;
+}
+
 /* Quote Styles */
 #quote-container {
     display: flex;
